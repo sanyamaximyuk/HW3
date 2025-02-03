@@ -10,10 +10,10 @@ switch (b1 == b2) {
         case true: {
             console.log('if else worked');
             break;
+        }
+        default: {
+            console.log('else worked');
+        }
     }
-    default: {
-        console.log('else worked')
     }
-}
-}
 }
